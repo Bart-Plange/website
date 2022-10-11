@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.btn{
+    padding: .5rem;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: rgb(160, 160, 255);
+    background-color: rgb(27, 27, 49);
+}
+header{
+    height: 4rem;
+    width: 100vw;
+    background-color: rgb(46, 46, 194);
+    position: fixed;
+}
+header .nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 6rem 0.6rem 6rem;
+}
+header .nav .logo{
+    color: orange;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+header .nav .nav_links{
+    display: flex;
+    float: right;
+}
+.nav .nav_links ul{
+    display: flex;
+    padding-left: 1rem;
+}
+.nav .nav_links ul li{
+    font-size: 1rem;
+    margin: auto;
+    display: flex;
+}
+.nav .nav_links ul li a{
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+.nav .get_started{
+    margin-left: auto;
+    padding: 0.6rem;
+}
+.nav .get_started a{
+    color: #fff;
+    padding: .6rem ;
+    border: 2px solid rgb(210, 210, 226);
+    border-radius: 15px;
+}
+.nav .nav_links ul li a:hover{
+    color: rgb(160, 160, 255);
+}
+.nav .get_started a:hover{
+    color: rgb(160, 160, 255);
+    background-color: rgb(27, 27, 49);
+}
+main .hero{
+   height: calc(80vh + 4rem);
+    width: 100vw;
+    background-color: rgb(79, 79, 236);
+}
+main .hero .container_hero{
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-color: rgb(79, 79, 236);
+}
+main .hero .container_hero .heroSec_one{
+    display: block;
+}
+
+.heroSec_one .heroText{
+    padding-top: 3rem;
+}
+.heroSec_one .heroText h1{
+    color: #fff;
+    font-size: 4rem;
+}
+.heroSec_one .heroText h3{
+    color: rgb(207, 207, 207);
+}
+.heroSec_one .buttons{
+    padding-top: 2rem;
+}
+.heroSec_one .buttons a{
+    color: #fff;
+    padding: .5rem;
+    margin-right: 1rem;
+    border: 2px solid #fff;
+
+}
+.container_hero .img_bg{
+    height: 100%;
+    width: 100%;
+}
+.container_hero .img_bg img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*------ links styling----*/
+.links{
+    max-height: 6rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(223, 217, 217);
+}
+.link_items{
+    align-items: center;
+    padding-left: 1rem;
+}
+.link_items ul{
+    display: flex;
+}
+.link_items ul li{
+    padding: 0.9rem;
+    list-style: none;
+}
+.link_items ul li img{
+    width: 35%;
+}
+
+/*------- About us styling ------*/
+.about{
+    height: 60vh;
+    width: 100vw;
+    padding-top: 4rem;
+    display: block;
+}
+.about h2{
+    font-size: 2rem;
+    color: rgb(44, 44, 94);
+    text-align: center;
+    align-items: center;
+}
+.about .about_content{
+    display: flex;
+    padding: 1rem 4rem 1rem 4rem;
+}
+.about .about_one{
+    padding: 0 2rem;
+}
+.about .about_one h3,ul li,.about_two h3{
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: rgb(102, 102, 114);
+}
+.about .about_one h3{
+    padding-bottom: 1rem;
+}
+
+.about .about_two{
+    padding: 0 2rem ;
+}
+.about .about_two h3{
+    padding-bottom: 2rem;
+}
+.about .about_two .btn{
+    background-color: rgb(79, 79, 236);
+    padding: .8rem;
+}
+.services{
+    background-color: rgb(248, 248, 248);
+    display: block;
+    height: 60vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.services a,h2,p{
+    text-align: center;
+}
+.services h2{
+    font-size: 3rem;
+    color: rgb(62, 62, 146); 
+}
+.services a{
+    font-size: 1.6rem;
+    color: rgb(62, 62, 146);
+}
+.services p{
+    font-size: 20px;
+    color: rgb(102, 102, 114);
+}
+.services_cards{
+    padding: 0 6rem;
+    text-align: start;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cards .cardone,.cardtwo,.cardthree,.cardfour{
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-color: rgb(214, 214, 214);
+    border: 2px solid rgb(96, 96, 153);
+    padding: 1rem;
+    margin: 2rem;
+}
+.services_cards .cardtext a{
+    padding-bottom: .5rem;
+}
+.call_to_action{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(57, 57, 226);
+}
+.call_to_action p,h3{
+    color: #fff;
+}
+.call_to_action h3{
+    font-size: 2rem;
+    padding-bottom: .4rem;
+}
+
+.team{
+    height: 100vh;
+    background-color: lightgray;
+    padding-top: 3rem;
+}
+.team_container{
+    padding: 0 2rem;
+    display: block;
+}
+.team_container .intro{
+    text-align: center;
+}
+.team_container .intro h3{
+    color: rgb(62, 62, 146);
+    font-size: 3rem;
+}
+.team_container .intro p{
+    color: rgb(102, 102, 114);
+    font-size: 20px;
+}
+.team .team_list{
+    display: flex;
+    flex-direction: row;
+}
+.team .team_one{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid blue;
+    margin: 2rem;
+    background-color: #fff;
+
+}
+.team .team_one .img_container{
+    height: 200px;
+    width: 200px;
+}
+.team .team_one .img_container img{
+    max-width: 200px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.team .team_one .team_items{
+    text-align: start;
+    padding: 1rem 0;
+}
+.team .team_one .team_items h3{
+    color: blue;
+    font-size: 1.5rem;
+}
+.team .team_one .team_items h4{
+    text-align: start;
+    color: rgb(102, 102, 114);
+    font-size: 1.2rem;
+}
+
+.team .team_one .team_items p{
+    text-align: start;
+    color: rgb(102, 102, 114);
+    padding: 1rem 0 0;
+}
+.team .team_one .team_items span{
+    border: 1px solid gray;
+    display: flex;
+    margin: .7rem 0 0;
+    width: 200px;
+}
+.newsletter{
+    height: 30vh;
+    padding: 2rem;
+    background-color: rgb(57, 57, 226);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newsletter h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 1rem;
+}
+.newsletter input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+}
